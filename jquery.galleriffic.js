@@ -336,7 +336,7 @@
 
 				image.alt = imageData.title;
 				image.src = imageData.slideUrl;
-
+        $(image).loupe();
 				return this;
 			},
 			
